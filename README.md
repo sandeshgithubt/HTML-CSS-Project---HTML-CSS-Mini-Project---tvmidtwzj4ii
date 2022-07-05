@@ -1,22 +1,19 @@
-# html-css-js-project-boilerplate
 
-
-# University Page
+# Parallax Site 
 
 #### By Sandesh Titarmare
 
-#### This Webpage is All about University Related Information
+#### This Webpage is showing Parallax effect
 
 ## Technologies Used
     
 
 * HTML
 * CSS
-* Javascript
 * CSS (media queries)
 
 ## Description
-University 
+Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling.
 
 ## Setup/Installation Requirements
 

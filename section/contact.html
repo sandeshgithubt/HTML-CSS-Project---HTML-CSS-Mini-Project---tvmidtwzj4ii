@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University page</title>
+
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./contact.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+        
+    <header class="header">
+
+        <nav>
+
+            <a href="index.html"><img src="../images/logo.png" alt="symbol"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+
+            <h1>Connect With Our University</h1>
+
+            <p>Making websites is now one of the easiest thing in the world. You just 
+                need to learn HTML, CSS, <br/> Javascript and you are good to go..
+            </p>
+
+            <a href="#" class="hero-btn">Contact Us</a>
+        </div>
+
+    </header>
+
+        <section class="map">
+
+            <div>
+                <h2>Our Location</h2>
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ipsum dolor sit amet, consectetur adipiscing elit.</P>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799160891!2d-74.25987584510595!3d40.69767006338158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1657012677709!5m2!1sen!2sin" class="map-box" width="100%" height="550px" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section class="cta">
+            <h2>Enroll For Our Various Online Courses<br/> Anywhere From The World</h2>
+
+            <a href="#" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <footer class="footer">
+
+            <!-- <h4>About Us</h4> -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue mi, pellentesque non Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Quisque augue mi, pellentesque non consectetur adipiscing elit. Quisque augue mi, pellentesque non
+            </p>
+    
+            <div class="icons"> 
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                
+            </div>
+    
+        </footer>
+    
+</body>
+
+<script>
+    var  navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+       navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+       navLinks.style.right = "-200px";
+    }
+</script>
+</html>

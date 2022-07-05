@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University page</title>
+
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./about.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav>
+
+            <a href="index.html"><img src="../images/logo.png" alt="symbol"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="./section/about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+
+            <h1>About Our University</h1>
+
+            <p>Making websites is now one of the easiest thing in the world. You just 
+                need to learn HTML, CSS, <br/> Javascript and you are good to go..
+            </p>
+
+            <a href="#" class="hero-btn">Show More</a>
+        </div>
+
+    </header>
+
+    <footer class="footer">
+
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue mi, pellentesque non Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Quisque augue mi, pellentesque non consectetur adipiscing elit. Quisque augue mi, pellentesque non
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+        </div>
+
+    </footer>
+    
+</body>
+
+<script>
+    var  navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+       navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+       navLinks.style.right = "-200px";
+    }
+</script>
+</html>
