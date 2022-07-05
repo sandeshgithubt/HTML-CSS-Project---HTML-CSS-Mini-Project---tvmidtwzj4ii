@@ -3,7 +3,7 @@
 
 #### By Sandesh Titarmare
 
-#### This Webpage is showing information about International University 
+#### This Webpage is showing information about Education of University 
 
 ## Technologies Used
     
