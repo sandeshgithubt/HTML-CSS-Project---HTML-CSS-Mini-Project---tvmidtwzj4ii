@@ -1,9 +1,9 @@
 
-# Parallax Site 
+# University Template 
 
 #### By Sandesh Titarmare
 
-#### This Webpage is showing Parallax effect
+#### This Webpage is showing information about International University 
 
 ## Technologies Used
     
@@ -11,9 +11,11 @@
 * HTML
 * CSS
 * CSS (media queries)
+* Javascript
 
 ## Description
-Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling.
+This webpage is five different pages regarding to infomation about the university and also it is responsive by nature with some hover effrect 
+and  it is  HTML CSS mini project but little bit JAVASCRIPT used in a project for some neccessary requirement for mobile screen.
 
 ## Setup/Installation Requirements
 
@@ -22,4 +24,4 @@ Parallax scrolling is a web site trend where the background content (i.e. an ima
 * Open index.html in your browser
 
 # Note 
-This site best viewed in Google Chrome
+This site best viewed in Google Chrome browser
